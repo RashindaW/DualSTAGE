@@ -6,7 +6,7 @@
 
 A specialized framework for **incipient fault detection** in complex industrial systems using **Dynamic Graph Neural Networks**.
 
-This repository implements **DualSTAGE** (Dynamic Spectral-Temporal Graph ATtention) with a novel **Dual-View (Spectral + Temporal) Architecture**. It learns two concurrent graph topologies:
+This repository implements **DualSTGF** (Dual Spectral-Temporal Graph Fusion). It learns two concurrent graph topologies:
 1.  **Temporal Graph ($A_{time}$)**: Captures dynamic correlations (nodes moving together).
 2.  **Spectral Graph ($A_{freq}$)**: Captures frequency-domain similarities (nodes resonating together).
 
